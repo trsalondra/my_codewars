@@ -1,8 +1,12 @@
 function oddOrEven(array) {
     let sum = 0
     array.map((e) => sum += e)
-    return sum % 2 == 0 ? "even" : "odd"
+    return sum % 2 === 0 ? "even" : "odd"
 }
+
+// REFACTORED
+// const oddOrEven = (array)=>
+// array.reduce((accumulator,currentValue,)=>accumulator+currentValue,0)%2===0?'even':'odd';
 
 console.log(oddOrEven([0])) // 'even'
 console.log(oddOrEven([1])) // 'odd'

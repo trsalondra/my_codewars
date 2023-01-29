@@ -1,11 +1,11 @@
-def is_isogram(string):
-    string = string.lower()
+# def is_isogram(string):
+#     string = string.lower()
 
-    testString = string[0]
-    string.remove(testString[0])
+#     testString = string[0]
+#     string.remove(testString[0])
 
-    for char in string:
-        print(char)
+#     for char in string:
+#         print(char)
         
 # print((is_isogram("Dermatoglyphics"))) # True
 # print((is_isogram("isogram")) True
@@ -21,8 +21,16 @@ alpfabet = "abcdefghijklmnopqrstuvwxyz"
 
 for char in string:
     stringList.append(char)
-    
-for char in a
 
-print(string)
-print(stringList)
+
+print(stringList.remove("z"))
+
+# for char in string:
+#     if(stringList.remove(char)==-1)
+#     stringList.remove(char)
+
+# print(string)
+# print(stringList)
+
+
+# My JPMorgan HireVue questions: tell us about when you had to explain a new technology/difficult concept to someone; tell us what you like about JPMonopoly and about the training program specifically; tell us how you'd decide whether to use a list or an array; tell us about how you would test a new feature of an application; and there was one more in that vein.
